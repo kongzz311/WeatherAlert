@@ -10,7 +10,7 @@
 
    邮件demo⬇️
 
-   <img src="/Users/stevekong/PycharmProjects/WeatherAlert/README.assets/IMG_5680.PNG" alt="IMG_5680" style="zoom:33%;" />
+   <img src="./README.assets/IMG_5680.PNG" alt="IMG_5680" style="zoom:33%;" />
 
 ## 使用流程
 
@@ -36,7 +36,7 @@
    SEND_EMAIL_ADDRESS：是用来发送邮件的邮箱地址。
    RECEIVER：接受邮件的地址，用`,`分隔。
 
-   <img src="/Users/stevekong/PycharmProjects/WeatherAlert/README.assets/image-20210721150456392.png" alt="image-20210721150456392" style="zoom:50%;" />
+   <img src="./README.assets/image-20210721150456392.png" alt="image-20210721150456392" style="zoom:50%;" />
 
 5. 配置敏感信息，密码和api在系统配置文件中：
 
