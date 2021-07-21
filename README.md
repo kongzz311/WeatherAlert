@@ -10,7 +10,7 @@
 
    邮件demo⬇️
 
-   ![IMG_5681](README.assets/IMG_5681.PNG)
+   ![IMG_5681](./README.assets/IMG_5681.PNG)
 
 ## 使用流程
 
