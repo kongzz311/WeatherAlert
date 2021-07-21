@@ -10,7 +10,7 @@
 
    邮件demo⬇️
 
-   ![IMG_5681](./README.assets/IMG_5681.PNG)
+   <img src="./README.assets/IMG_5681.PNG" alt="image-20210721150456392" style="zoom:50%;" />
 
 ## 使用流程
 
