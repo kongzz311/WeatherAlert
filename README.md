@@ -27,16 +27,30 @@
 
 4. 配置config文件
 
-   LOCATIONS：指定的城市的id，获取方式参见官网这个文档https://dev.qweather.com/docs/api/geo/city-lookup/，用`,`分隔。
+   LOCATIONS：指定的城市的id，可以直接在和风官方github仓库中的https://github.com/qwd/LocationList/blob/master/China-City-List-latest.csv文件中查询，用`,`分隔。
 
-   SMTP_SERVER: 是用来发送邮件，提供服务的邮箱的服务器地址，图中是gmail的smtp服务器，本项目基于smtp发送邮件。
+   SMTP_SERVER: 是用来发送邮件的邮箱的服务器地址，示例中是gmail的smtp服务器，本项目基于smtp发送邮件。
 
-   SMTP_SERVER_PORT: 是用来发送邮件，提供服务的邮箱的服务器端口号，587是smtp服务器的端口。
+   SMTP_SERVER_PORT: 是用来发送邮件的邮箱的服务器端口号，587是smtp服务器的端口。
 
    SEND_EMAIL_ADDRESS：是用来发送邮件的邮箱地址。
+   
    RECEIVER：接受邮件的地址，用`,`分隔。
 
-   <img src="./README.assets/image-20210721150456392.png" alt="image-20210721150456392" style="zoom:50%;" />
+   ```cfg
+   [API]
+   ;test 101221701,
+   LOCATIONS = 101180101
+   
+   [EMAIL]
+   SMTP_SERVER = smtp.gmail.com
+   SMTP_SERVER_PORT = 587
+   SEND_EMAIL_ADDRESS = sender@gmail.com
+   RECEIVER = reciver1@outlook.com,reciver2@outlook.com
+   
+   ```
+
+   
 
 5. 配置敏感信息，密码和api在系统配置文件中：
 
@@ -49,7 +63,7 @@
 
    添加完成，保存，`source ~/.zshrc`激活
 
-6. 进入文件路径，运行。
+6. 进入文件路径，运行。服务器后台运行可以配合tmux等工具
 
    ```shell
    python run.py
