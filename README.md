@@ -27,7 +27,7 @@
 
 4. 配置config文件
 
-   LOCATIONS：指定的城市的id，可以直接在和风官方github仓库中的https://github.com/qwd/LocationList/blob/master/China-City-List-latest.csv文件中查询，用`,`分隔。
+   LOCATIONS：指定的城市的id，可以直接在和风官方github仓库中的https://github.com/qwd/LocationList/blob/master/China-City-List-latest.csv 文件中查询，用`,`分隔。
 
    SMTP_SERVER: 是用来发送邮件的邮箱的服务器地址，示例中是gmail的smtp服务器，本项目基于smtp发送邮件。
 
